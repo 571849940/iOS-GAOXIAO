@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UniversityViewController">
+            <connections>
+                <outlet property="schoolNameLiftWitch" destination="LLZ-F1-bZk" id="bhN-XH-lzX"/>
+                <outlet property="scraceRightWitch" destination="rYb-Hx-QeN" id="B51-Ov-E8Q"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQw-hS-LBx">
+                    <rect key="frame" x="0.0" y="64" width="414" height="60"/>
+                    <subviews>
+                        <button opaque="NO" tag="110" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRv-Y7-xMc">
+                            <rect key="frame" x="34" y="15" width="78" height="30"/>
+                            <color key="backgroundColor" red="0.16078431369999999" green="0.55294117649999996" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="78" id="Ggw-7y-1Te"/>
+                            </constraints>
+                            <state key="normal" title="按校名查询">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="searchUniversityEvent:" destination="-1" eventType="touchUpInside" id="002-Qk-n3b"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCU-Hh-Qry">
+                            <rect key="frame" x="168" y="15" width="78" height="30"/>
+                            <color key="backgroundColor" red="0.16078431369999999" green="0.55294117649999996" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="VCk-Bd-psF"/>
+                                <constraint firstAttribute="width" constant="78" id="aFh-n1-udd"/>
+                            </constraints>
+                            <state key="normal" title="按省份查询">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="searchUniversityEvent:" destination="-1" eventType="touchUpInside" id="nhB-cs-RX5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slv-Ry-ct3">
+                            <rect key="frame" x="296" y="15" width="78" height="30"/>
+                            <color key="backgroundColor" red="0.16078431369999999" green="0.55294117649999996" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="78" id="IfE-Bu-00b"/>
+                            </constraints>
+                            <state key="normal" title="按分数查询">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="searchUniversityEvent:" destination="-1" eventType="touchUpInside" id="hV5-e0-ghM"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="nRv-Y7-xMc" secondAttribute="bottom" constant="15" id="2Xr-Sz-kLG"/>
+                        <constraint firstAttribute="bottom" secondItem="Slv-Ry-ct3" secondAttribute="bottom" constant="15" id="KG4-CJ-hvG"/>
+                        <constraint firstItem="nRv-Y7-xMc" firstAttribute="leading" secondItem="hQw-hS-LBx" secondAttribute="leading" constant="34" id="LLZ-F1-bZk"/>
+                        <constraint firstItem="xCU-Hh-Qry" firstAttribute="centerX" secondItem="hQw-hS-LBx" secondAttribute="centerX" id="Q90-wE-V58"/>
+                        <constraint firstItem="nRv-Y7-xMc" firstAttribute="top" secondItem="hQw-hS-LBx" secondAttribute="top" constant="15" id="gQW-Co-JEL"/>
+                        <constraint firstAttribute="height" constant="60" id="h1i-gh-qh9"/>
+                        <constraint firstItem="Slv-Ry-ct3" firstAttribute="top" secondItem="hQw-hS-LBx" secondAttribute="top" constant="15" id="plw-fj-mPt"/>
+                        <constraint firstAttribute="trailing" secondItem="Slv-Ry-ct3" secondAttribute="trailing" constant="40" id="rYb-Hx-QeN"/>
+                        <constraint firstItem="xCU-Hh-Qry" firstAttribute="top" secondItem="hQw-hS-LBx" secondAttribute="top" constant="15" id="yvV-Pp-st2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hQw-hS-LBx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="7xl-gQ-mkR"/>
+                <constraint firstAttribute="trailing" secondItem="hQw-hS-LBx" secondAttribute="trailing" id="QsP-6F-9Xb"/>
+                <constraint firstItem="hQw-hS-LBx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="b9w-eY-YPn"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="466" y="210"/>
+        </view>
+    </objects>
+</document>

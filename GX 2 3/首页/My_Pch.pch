@@ -1,0 +1,86 @@
+//
+//  My_Pch.pch
+//  首页
+//
+//  Created by shiguanghua on 16/6/6.
+//  Copyright © 2016年 shiguanghua. All rights reserved.
+//
+
+#ifndef My_Pch_pch
+#define My_Pch_pch
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kScrrenBounds [UIScreen mainScreen].bounds
+
+#define kTempPath [NSTemporaryDirectory() stringByAppendingPathComponent:@"image"]
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define kUIColorAFromRGB(rgbValue,a) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+
+#define kUIColorFromRGB(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#import "UIViewController+AddNavigationBar.h"
+
+#import <PPRevealSideViewController.h>
+#import "LeftSlideViewController.h"
+#import "XRFilePath.h"
+#import "UIImage+Scale.h"
+#import <AFNetworking.h>
+#import <MBProgressHUD.h>
+
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import <UIImageView+WebCache.h>
+#import "FSCodeLayout.h"
+
+#import "UIView+HB.h"
+#import "UIView+Frame.h"
+
+//**************** 分享 **********************
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+//腾讯开放平台（对应QQ和QQ空间）SDK头文件
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+//微信SDK头文件
+#import "WXApi.h"
+//新浪微博SDK头文件
+#import "WeiboSDK.h"
+
+#import <SMS_SDK/SMSSDK.h>
+
+#define kUserDict @"userdict"
+
+
+#endif /* My_Pch_pch */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

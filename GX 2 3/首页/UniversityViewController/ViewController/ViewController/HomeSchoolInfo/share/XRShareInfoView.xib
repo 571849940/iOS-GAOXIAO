@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view tag="1" contentMode="scaleToFill" id="iN0-l3-epB" customClass="XRShareInfoView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.33300000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sEi-3X-giE">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lqb-rO-Vq6" userLabel="ContentView">
+                    <rect key="frame" x="-6" y="358" width="332" height="210"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xlz-YG-Qp1" userLabel="weibo">
+                            <rect key="frame" x="0.0" y="0.0" width="106" height="106"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sina.png" translatesAutoresizingMaskIntoConstraints="NO" id="25r-te-esE">
+                                    <rect key="frame" x="27" y="14" width="52" height="52"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="新浪微博" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJB-MB-wPJ">
+                                    <rect key="frame" x="8" y="77" width="90" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nDe-3J-npG" userLabel="frient">
+                            <rect key="frame" x="206" y="0.0" width="106" height="106"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pengyouquan.png" translatesAutoresizingMaskIntoConstraints="NO" id="CHX-28-YfH">
+                                    <rect key="frame" x="27" y="14" width="52" height="52"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="朋友圈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJb-dd-9Ld">
+                                    <rect key="frame" x="8" y="77" width="90" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="52b-jd-Bh4" userLabel="weixin">
+                            <rect key="frame" x="100" y="0.0" width="106" height="106"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="微信" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bk9-4E-2AK">
+                                    <rect key="frame" x="8" y="77" width="90" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weixin.png" translatesAutoresizingMaskIntoConstraints="NO" id="SGr-60-9z6">
+                                    <rect key="frame" x="27" y="17" width="52" height="52"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxn-wq-75J" userLabel="QQ">
+                            <rect key="frame" x="0.0" y="107" width="106" height="106"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QQ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sj-z5-8wA">
+                                    <rect key="frame" x="8" y="77" width="90" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="QQ.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gio-0A-0iJ">
+                                    <rect key="frame" x="27" y="17" width="52" height="52"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="210" id="J5l-JR-PPL"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="J5l-JR-PPL"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="J5l-JR-PPL"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="lqb-rO-Vq6" secondAttribute="bottom" id="2CB-EY-j3A"/>
+                <constraint firstItem="sEi-3X-giE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="E05-AF-rZn"/>
+                <constraint firstItem="sEi-3X-giE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Zfl-lG-WmO"/>
+                <constraint firstAttribute="trailing" secondItem="sEi-3X-giE" secondAttribute="trailing" id="cMt-GY-C4G"/>
+                <constraint firstAttribute="bottom" secondItem="sEi-3X-giE" secondAttribute="bottom" id="l78-EK-Qn5"/>
+                <constraint firstItem="lqb-rO-Vq6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mir-pv-VyE">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-6"/>
+                </constraint>
+                <constraint firstAttribute="trailing" secondItem="lqb-rO-Vq6" secondAttribute="trailing" id="uXd-r6-Bwh">
+                    <variation key="heightClass=regular-widthClass=compact" constant="-6"/>
+                </constraint>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="E05-AF-rZn"/>
+                    <exclude reference="Zfl-lG-WmO"/>
+                    <exclude reference="cMt-GY-C4G"/>
+                    <exclude reference="l78-EK-Qn5"/>
+                    <exclude reference="2CB-EY-j3A"/>
+                    <exclude reference="mir-pv-VyE"/>
+                    <exclude reference="uXd-r6-Bwh"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="E05-AF-rZn"/>
+                    <include reference="Zfl-lG-WmO"/>
+                    <include reference="cMt-GY-C4G"/>
+                    <include reference="l78-EK-Qn5"/>
+                    <include reference="2CB-EY-j3A"/>
+                    <include reference="mir-pv-VyE"/>
+                    <include reference="uXd-r6-Bwh"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="bgView" destination="sEi-3X-giE" id="Geo-Za-8MP"/>
+                <outlet property="contentView" destination="lqb-rO-Vq6" id="Avt-tb-NYQ"/>
+                <outlet property="friendView" destination="nDe-3J-npG" id="g9u-1I-3bm"/>
+                <outlet property="qqView" destination="yxn-wq-75J" id="z8U-jM-svC"/>
+                <outlet property="weiboView" destination="Xlz-YG-Qp1" id="L0T-EW-97y"/>
+                <outlet property="weixinView" destination="52b-jd-Bh4" id="YjC-FU-pAg"/>
+            </connections>
+            <point key="canvasLocation" x="450" y="308"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="QQ.png" width="104" height="104"/>
+        <image name="pengyouquan.png" width="104" height="104"/>
+        <image name="sina.png" width="104" height="104"/>
+        <image name="weixin.png" width="104" height="104"/>
+    </resources>
+</document>
